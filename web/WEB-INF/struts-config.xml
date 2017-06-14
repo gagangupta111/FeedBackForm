@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+        "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+
+    <form-beans>
+        <form-bean name="feedBackFormForm"
+                   type="com.feedbackform.form.FeedBackFormForm" />
+    </form-beans>
+
+    <action-mappings>
+
+        <action
+                path="/WelcomePage"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="/pages/feedbackform/welcome.jsp"/>
+
+        <action
+                path="/Welcome"
+                type="com.feedbackform.action.WelcomeAction"
+                input="/pages/feedbackform/welcome.jsp">
+
+            <forward name="success" redirect="true" path="/AddFeedBackFormPage.do"/>
+        </action>
+
+        <action
+                path="/AddFeedBackFormPage"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="/pages/feedbackform/add_feedbackform.jsp"/>
+
+        <action
+                path="/AddFeedBackForm"
+                type="com.feedbackform.action.AddFeedBackFormAction"
+                name="feedBackFormForm"
+                validate="true"
+                input="/pages/feedbackform/add_feedbackform.jsp">
+
+            <forward name="success" redirect="true" path="/thanksForYourFeedBack.do"/>
+        </action>
+
+        <action
+                path="/thanksForYourFeedBack"
+                type="com.feedbackform.action.ThanksForYourFeedBackAction"
+                name="feedBackFormForm"
+                validate="true"
+                input="/pages/feedbackform/thanksForYourFeedBack.jsp">
+            <forward name="success" path="/pages/feedbackform/thanksForYourFeedBack.jsp"/>
+        </action>
+
+    </action-mappings>
+
+    <!-- Spring Struts plugin -->
+    <plug-in className="org.springframework.web.struts.ContextLoaderPlugIn">
+        <set-property property="contextConfigLocation"
+                      value="/WEB-INF/classes/SpringBeans.xml" />
+    </plug-in>
+
+</struts-config>

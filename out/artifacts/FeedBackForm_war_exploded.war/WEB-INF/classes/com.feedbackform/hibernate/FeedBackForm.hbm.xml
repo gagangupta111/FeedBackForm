@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.feedbackform.model.FeedBackForm" table="FEEDBACKFORM" catalog="Hibernate1">
+        <id name="feedBackId" type="long">
+            <column name="FEEDBACK_ID" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="NAME" length="45" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="EMAIL" length="45" not-null="true" />
+        </property>
+        <property name="answer1" type="string">
+            <column name="ANSWER1" length="250" not-null="true" />
+        </property>
+        <property name="answer2" type="string">
+            <column name="ANSWER2" length="250" not-null="true" />
+        </property>
+        <property name="answer3" type="string">
+            <column name="ANSWER3" length="250" not-null="true" />
+        </property>
+        <property name="answer4" type="string">
+            <column name="ANSWER4" length="250" not-null="true" />
+        </property>
+        <property name="answer5" type="string">
+            <column name="ANSWER5" length="250" not-null="true" />
+        </property>
+        <property name="answer6" type="string">
+            <column name="ANSWER6" length="250" not-null="true" />
+        </property>
+        <property name="answer7" type="string">
+            <column name="ANSWER7" length="250" not-null="true" />
+        </property>
+        <property name="answer8" type="string">
+            <column name="ANSWER8" length="250" not-null="true" />
+        </property>
+        <property name="answer9" type="string">
+            <column name="ANSWER9" length="250" not-null="true" />
+        </property>
+        <property name="createdDate" type="timestamp">
+            <column name="CREATED_DATE" length="19" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
