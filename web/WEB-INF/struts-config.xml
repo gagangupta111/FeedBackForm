@@ -18,24 +18,34 @@
                 parameter="/pages/feedbackform/welcome.jsp"/>
 
         <action
-                path="/Welcome"
+                path="/WelcomeEn"
                 type="com.feedbackform.action.WelcomeAction"
                 input="/pages/feedbackform/welcome.jsp">
-
-            <forward name="success" redirect="true" path="/AddFeedBackFormPage.do"/>
+            <forward name="success" redirect="true" path="/AddFeedBackFormPageEn.do"/>
         </action>
 
         <action
-                path="/AddFeedBackFormPage"
+                path="/WelcomeHi"
+                type="com.feedbackform.action.WelcomeAction"
+                input="/pages/feedbackform/welcome.jsp">
+            <forward name="success" redirect="true" path="/AddFeedBackFormPageHi.do"/>
+        </action>
+
+        <action
+                path="/AddFeedBackFormPageEn"
                 type="org.apache.struts.actions.ForwardAction"
-                parameter="/pages/feedbackform/add_feedbackform.jsp"/>
+                parameter="/pages/feedbackform/add_feedbackformEn.jsp"/>
+
+        <action
+                path="/AddFeedBackFormPageHi"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="/pages/feedbackform/add_feedbackformHi.jsp"/>
 
         <action
                 path="/AddFeedBackForm"
                 type="com.feedbackform.action.AddFeedBackFormAction"
                 name="feedBackFormForm"
-                validate="true"
-                input="/pages/feedbackform/add_feedbackform.jsp">
+                validate="true">
 
             <forward name="success" redirect="true" path="/thanksForYourFeedBack.do"/>
         </action>
@@ -50,11 +60,6 @@
         </action>
 
     </action-mappings>
-
-    <message-resources id="English"
-            parameter="com.feedbackform.properties.English" />
-    <message-resources id="Hindi"
-                       parameter="com.feedbackform.properties.HIndi" />
 
     <!-- Spring Struts plugin -->
     <plug-in className="org.springframework.web.struts.ContextLoaderPlugIn">

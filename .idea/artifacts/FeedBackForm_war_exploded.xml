@@ -8,6 +8,7 @@
           <element id="module-output" name="FeedBackForm" />
           <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/English.properties" />
           <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/HIndi.properties" />
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/common.properties" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
@@ -53,10 +54,11 @@
       </element>
       <element id="directory" name="pages">
         <element id="directory" name="feedbackform">
-          <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/add_feedbackform.jsp" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformEn.jsp" />
           <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/thanksForYourFeedBack.jsp" />
           <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/welcome.jsp" />
           <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/formcss.css" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformHi.jsp" />
         </element>
       </element>
     </root>

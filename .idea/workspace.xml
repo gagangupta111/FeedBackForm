@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02888797-6a11-48c5-ad7c-fdbf6ec11bd9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/English.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/HIndi.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pages/feedbackform/formcss.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pages/feedbackform/new.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/struts-core-1.3.10.jar" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/common.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformHi.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/add_feedbackform.jsp" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/pages/feedbackform/add_feedbackform.jsp" afterPath="$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformEn.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/FeedBackForm_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FeedBackForm_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FeedBackForm.iml" afterPath="$PROJECT_DIR$/FeedBackForm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/English.properties" afterPath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/English.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/HIndi.properties" afterPath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/HIndi.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com.feedbackform/properties/English.properties" afterPath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com.feedbackform/properties/English.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com.feedbackform/properties/HIndi.properties" afterPath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com.feedbackform/properties/HIndi.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/struts-config.xml" afterPath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/struts-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/add_feedbackform.jsp" afterPath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/add_feedbackform.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/welcome.jsp" afterPath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/welcome.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/English.properties" afterPath="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/English.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/HIndi.properties" afterPath="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/HIndi.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com.feedbackform/properties/English.properties" afterPath="$PROJECT_DIR$/target/classes/com.feedbackform/properties/English.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com.feedbackform/properties/HIndi.properties" afterPath="$PROJECT_DIR$/target/classes/com.feedbackform/properties/HIndi.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/struts-config.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/struts-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/feedbackform/add_feedbackform.jsp" afterPath="$PROJECT_DIR$/web/pages/feedbackform/add_feedbackform.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pages/feedbackform/welcome.jsp" afterPath="$PROJECT_DIR$/web/pages/feedbackform/welcome.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,41 +33,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="add_feedbackform.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackform.jsp">
+      <file leaf-file-name="add_feedbackformEn.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformEn.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddFeedBackFormAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/feedbackform/action/AddFeedBackFormAction.java">
+      <file leaf-file-name="add_feedbackformHi.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformHi.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThanksForYourFeedBackAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/feedbackform/action/ThanksForYourFeedBackAction.java">
+      <file leaf-file-name="welcome.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/welcome.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="161">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WelcomeAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/feedbackform/action/WelcomeAction.java">
+      <file leaf-file-name="common.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/common.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="1" column="78" lean-forward="false" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -70,42 +75,22 @@
       </file>
       <file leaf-file-name="struts-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/struts-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="English.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/English.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HIndi.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/HIndi.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="117" lean-forward="false" selection-start-line="10" selection-start-column="117" selection-end-line="10" selection-end-column="117" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formcss.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/formcss.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -126,6 +111,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>struts</find>
+      <find>add_feedbackfor</find>
+      <find>add_feedbackfo</find>
+      <find>add_feedbackf</find>
+      <find>add_feedback</find>
+      <find>add_feedbac</find>
+      <find>add_feedba</find>
+      <find>add_feedb</find>
+      <find>add_feed</find>
+      <find>add_feedbackform</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,7 +131,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackform.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformEn.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -164,15 +158,18 @@
         <option value="$PROJECT_DIR$/src/main/resources/config.database/properties/FEEDBACKFORM.ddl" />
         <option value="$PROJECT_DIR$/src/main/java/com/feedbackform/action/ThanksForYourFeedBackAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/feedbackform/action/WelcomeAction.java" />
-        <option value="$PROJECT_DIR$/web/pages/feedbackform/welcome.jsp" />
         <option value="$PROJECT_DIR$/web/pages/feedbackform/new.css" />
         <option value="$PROJECT_DIR$/web/pages/feedbackform/new.scss" />
         <option value="$PROJECT_DIR$/web/pages/feedbackform/formcss.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/English.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/HIndi.properties" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/struts-config.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/pages/feedbackform/add_feedbackform.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/struts-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/English.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/HIndi.properties" />
+        <option value="$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformHi.jsp" />
+        <option value="$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformEn.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/common.properties" />
+        <option value="$PROJECT_DIR$/web/pages/feedbackform/welcome.jsp" />
       </list>
     </option>
   </component>
@@ -203,6 +200,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -543,7 +541,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -556,12 +553,13 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties" />
-      <recent name="$PROJECT_DIR$/src/main/resources/config.database/spring" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/pages/feedbackform" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com.feedbackform/properties" />
+      <recent name="$PROJECT_DIR$/src/main/resources/config.database/spring" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1219,6 +1217,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="02888797-6a11-48c5-ad7c-fdbf6ec11bd9" name="Default" comment="" />
@@ -1247,12 +1248,14 @@
       <workItem from="1497602518049" duration="1407000" />
       <workItem from="1497604030746" duration="257000" />
       <workItem from="1497604962495" duration="1291000" />
-      <workItem from="1497607365252" duration="314000" />
+      <workItem from="1497607365252" duration="1159000" />
+      <workItem from="1497608599317" duration="1912000" />
+      <workItem from="1497610590976" duration="224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31811000" />
+    <option name="totallyTimeSpent" value="34792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1283,7 +1286,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3311874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3404864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1294,7 +1297,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1314,20 +1317,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/feedbackform/action/AddFeedBackFormAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/feedbackform/action/ThanksForYourFeedBackAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/feedbackform/action/WelcomeAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1351,7 +1340,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackform.jsp">
+    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformEn.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
@@ -1405,7 +1394,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackform.jsp">
+    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformEn.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9075">
           <caret line="605" column="0" lean-forward="false" selection-start-line="605" selection-start-column="0" selection-end-line="605" selection-end-column="0" />
@@ -1429,7 +1418,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackform.jsp">
+    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformEn.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1472,7 +1461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1483,7 +1471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackform.jsp">
+    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformEn.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1582,15 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1598,6 +1577,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/new.css" />
+    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/formcss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.database/properties/FEEDBACKFORM.ddl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1610,53 +1612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/new.css" />
     <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/new.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1132">
-          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/formcss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.database/properties/FEEDBACKFORM.ddl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/HIndi.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="117" lean-forward="false" selection-start-line="10" selection-start-column="117" selection-end-line="10" selection-end-column="117" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/struts-config.xml">
-      <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/English.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="1380">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1676,14 +1635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/feedbackform/action/WelcomeAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1692,10 +1643,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackform.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/English.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/HIndi.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformEn.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/struts-config.xml">
+      <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformHi.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com.feedbackform/properties/common.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="78" lean-forward="false" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/feedbackform/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
