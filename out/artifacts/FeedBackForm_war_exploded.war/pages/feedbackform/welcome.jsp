@@ -5,8 +5,8 @@
 <%@ page language="java" import="java.util.*" %>
 <%@ page import = "java.util.ResourceBundle" %>
 <% ResourceBundle resource = ResourceBundle.getBundle("common");
-    String English=resource.getString("English");
-    String Hindi=resource.getString("Hindi");
+    String English  = new String(resource.getString("English").getBytes("ISO-8859-1"), "UTF-8");
+    String Hindi    = new String(resource.getString("Hindi").getBytes("ISO-8859-1"), "UTF-8");
 %>
 
 <html>
@@ -14,24 +14,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width = device-width, initial-scale = 1">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <style>
-        .jumbotron{
-            background-color:#2E2D88;
-            color:white;
-        }
-        /* Adds borders for tabs */
-        .tab-content {
-            border-left: 1px solid #ddd;
-            border-right: 1px solid #ddd;
-            border-bottom: 1px solid #ddd;
-            padding: 10px;
-        }
-        .nav-tabs {
-            margin-bottom: 0;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="pages/feedbackform/formcss.css">
 
 </head>
 
@@ -46,9 +29,6 @@
 
 <html:link action="/WelcomeEn.do"> English </html:link>
 <html:link action="/WelcomeHi.do"> हिंदी </html:link>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 </body>
 </html>

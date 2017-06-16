@@ -8,7 +8,6 @@ import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
 public class FeedBackFormDaoImpl extends HibernateDaoSupport implements FeedBackFormDao{
 
-
     public void addFeedBackForm(FeedBackForm feedBackForm) {
         feedBackForm.setCreatedDate(new Date());
         getHibernateTemplate().save(feedBackForm);

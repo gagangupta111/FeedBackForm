@@ -14,7 +14,11 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
         <property name="hibernateProperties">
             <props>
+                <prop key="hibernate.connection.CharSet">utf8</prop>
+                <prop key="hibernate.connection.characterEncoding">utf8</prop>
+                <prop key="hibernate.connection.useUnicode">true</prop>
                 <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+                <prop key="hbm2ddl.auto">update</prop>
                 <prop key="hibernate.show_sql">true</prop>
             </props>
         </property>
