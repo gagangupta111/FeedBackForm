@@ -51,6 +51,11 @@
 
     </action-mappings>
 
+    <message-resources id="English"
+            parameter="com.feedbackform.properties.English" />
+    <message-resources id="Hindi"
+                       parameter="com.feedbackform.properties.HIndi" />
+
     <!-- Spring Struts plugin -->
     <plug-in className="org.springframework.web.struts.ContextLoaderPlugIn">
         <set-property property="contextConfigLocation"
