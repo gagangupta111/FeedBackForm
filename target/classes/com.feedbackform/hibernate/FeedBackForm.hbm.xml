@@ -13,6 +13,33 @@
         <property name="email" type="string">
             <column name="EMAIL" length="45" not-null="true" />
         </property>
+        <property name="q1Radio" type="int">
+            <column name="RADIO1" not-null="true" />
+        </property>
+        <property name="q2Radio" type="int">
+            <column name="RADIO2" not-null="true" />
+        </property>
+        <property name="q3Radio" type="int">
+            <column name="RADIO3" not-null="true" />
+        </property>
+        <property name="q4Radio" type="int">
+            <column name="RADIO4" not-null="true" />
+        </property>
+        <property name="q5Radio" type="int">
+            <column name="RADIO5" not-null="true" />
+        </property>
+        <property name="q6Radio" type="int">
+            <column name="RADIO6" not-null="true" />
+        </property>
+        <property name="q7Radio" type="int">
+            <column name="RADIO7" not-null="true" />
+        </property>
+        <property name="q8Radio" type="int">
+            <column name="RADIO8" not-null="true" />
+        </property>
+        <property name="q9Radio" type="int">
+            <column name="RADIO9" not-null="true" />
+        </property>
         <property name="answer1" type="string">
             <column name="ANSWER1" length="250" not-null="true" />
         </property>
@@ -39,6 +66,9 @@
         </property>
         <property name="answer9" type="string">
             <column name="ANSWER9" length="250" not-null="true" />
+        </property>
+        <property name="answer10" type="string">
+            <column name="ANSWER10" length="250" not-null="true" />
         </property>
         <property name="createdDate" type="timestamp">
             <column name="CREATED_DATE" length="19" not-null="true" />

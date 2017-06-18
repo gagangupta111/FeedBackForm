@@ -17,6 +17,7 @@ public class AddFeedBackFormAction extends ActionSupport{
                                  HttpServletRequest request,HttpServletResponse response)
             throws Exception {
 
+        request.getSession().setAttribute("errorBean", null);
         response.setCharacterEncoding("UTF-8");
         request.setCharacterEncoding("UTF-8");
         FeedBackFormBo feedBackFormBo =
@@ -26,11 +27,8 @@ public class AddFeedBackFormAction extends ActionSupport{
         FeedBackForm feedBackForm = new FeedBackForm();
 
         BeanUtils.copyProperties(feedBackForm, feedBackFormForm);
-
+        request.getSession().setAttribute("name", feedBackForm.getName());
         feedBackFormBo.addFeedBackForm(feedBackForm);
-
-        System.out.println(feedBackFormForm.getName());
-        System.out.println(feedBackForm.getName());
 
         return mapping.findForward("success");
 

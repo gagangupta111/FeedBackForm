@@ -9,6 +9,16 @@ public class FeedBackForm implements java.io.Serializable {
     private String name;
     private String email;
 
+    private int Q1Radio;
+    private int Q2Radio;
+    private int Q3Radio;
+    private int Q4Radio;
+    private int Q5Radio;
+    private int Q6Radio;
+    private int Q7Radio;
+    private int Q8Radio;
+    private int Q9Radio;
+
     private String answer1;
     private String answer2;
     private String answer3;
@@ -18,6 +28,7 @@ public class FeedBackForm implements java.io.Serializable {
     private String answer7;
     private String answer8;
     private String answer9;
+    private String answer10;
 
     private Date createdDate;
 
@@ -143,5 +154,85 @@ public class FeedBackForm implements java.io.Serializable {
 
     public void setCreatedDate(Date createdDate) {
         this.createdDate = createdDate;
+    }
+
+    public String getAnswer10() {
+        return answer10;
+    }
+
+    public void setAnswer10(String answer10) {
+        this.answer10 = answer10;
+    }
+
+    public int getQ1Radio() {
+        return Q1Radio;
+    }
+
+    public void setQ1Radio(int q1Radio) {
+        Q1Radio = q1Radio;
+    }
+
+    public int getQ2Radio() {
+        return Q2Radio;
+    }
+
+    public void setQ2Radio(int q2Radio) {
+        Q2Radio = q2Radio;
+    }
+
+    public int getQ3Radio() {
+        return Q3Radio;
+    }
+
+    public void setQ3Radio(int q3Radio) {
+        Q3Radio = q3Radio;
+    }
+
+    public int getQ4Radio() {
+        return Q4Radio;
+    }
+
+    public void setQ4Radio(int q4Radio) {
+        Q4Radio = q4Radio;
+    }
+
+    public int getQ5Radio() {
+        return Q5Radio;
+    }
+
+    public void setQ5Radio(int q5Radio) {
+        Q5Radio = q5Radio;
+    }
+
+    public int getQ6Radio() {
+        return Q6Radio;
+    }
+
+    public void setQ6Radio(int q6Radio) {
+        Q6Radio = q6Radio;
+    }
+
+    public int getQ7Radio() {
+        return Q7Radio;
+    }
+
+    public void setQ7Radio(int q7Radio) {
+        Q7Radio = q7Radio;
+    }
+
+    public int getQ8Radio() {
+        return Q8Radio;
+    }
+
+    public void setQ8Radio(int q8Radio) {
+        Q8Radio = q8Radio;
+    }
+
+    public int getQ9Radio() {
+        return Q9Radio;
+    }
+
+    public void setQ9Radio(int q9Radio) {
+        Q9Radio = q9Radio;
     }
 }

@@ -20,15 +20,15 @@
 
 <body>
 
-<h2><%=English%></h2>
-<h2><%=Hindi%></h2>
+<header class="ccheader">
+    <h1><%=English%></h1>
+    <h1><%=Hindi%></h1>
+</header>
 
-<div style="color:red">
-    <html:errors/>
-</div>
-
-<html:link action="/WelcomeEn.do"> English </html:link>
-<html:link action="/WelcomeHi.do"> हिंदी </html:link>
+<header class="ccheader">
+    <html:link action="/WelcomeEn.do"> English </html:link>
+    <html:link action="/WelcomeHi.do"> हिंदी </html:link>
+</header>
 
 </body>
 </html>

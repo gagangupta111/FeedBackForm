@@ -42,10 +42,21 @@
                 parameter="/pages/feedbackform/add_feedbackformHi.jsp"/>
 
         <action
-                path="/AddFeedBackForm"
+                path="/AddFeedBackFormHi"
                 type="com.feedbackform.action.AddFeedBackFormAction"
                 name="feedBackFormForm"
-                validate="true">
+                validate="true"
+                input="/pages/feedbackform/add_feedbackformHi.jsp">
+
+            <forward name="success" redirect="true" path="/thanksForYourFeedBack.do"/>
+        </action>
+
+        <action
+                path="/AddFeedBackFormEn"
+                type="com.feedbackform.action.AddFeedBackFormAction"
+                name="feedBackFormForm"
+                validate="true"
+                input="/pages/feedbackform/add_feedbackformEn.jsp">
 
             <forward name="success" redirect="true" path="/thanksForYourFeedBack.do"/>
         </action>
@@ -60,6 +71,9 @@
         </action>
 
     </action-mappings>
+
+    <message-resources
+            parameter="com.feedbackform.properties.common" />
 
     <!-- Spring Struts plugin -->
     <plug-in className="org.springframework.web.struts.ContextLoaderPlugIn">
