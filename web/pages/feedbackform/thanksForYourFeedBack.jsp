@@ -14,16 +14,30 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width = device-width, initial-scale = 1">
-    <link rel="stylesheet" type="text/css" href="pages/feedbackform/formcss.css">
+    <link rel="stylesheet" type="text/css" href="pages/feedbackform/jscss/formcss.css">
 
 </head>
 
 <body>
 
-<header class="ccheader">
+<header class="ccheader orange">
     <h1><%=engThanks%> <%=session.getAttribute("name")%> </h1>
     <h1><%=hinThanks%> <%=session.getAttribute("name")%> </h1>
 </header>
+
+<br>
+<br>
+<br>
+<br>
+
+<img style="margin-left: 30%; margin-right: 30%" src="images/buddha.jpg" height="400" width="600">
+
+<br>
+<br>
+<br>
+<br>
+
+<jsp:include page="footer.jsp"/>
 
 </body>
 </html>

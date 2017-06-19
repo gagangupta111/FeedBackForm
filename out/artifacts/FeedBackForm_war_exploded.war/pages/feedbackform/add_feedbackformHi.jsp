@@ -1,8 +1,3 @@
-<%@taglib uri="http://struts.apache.org/tags-html" prefix="s"%>
-<%@taglib uri="http://struts.apache.org/tags-bean" prefix="b"%>
-<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
-<%@ page contentType="text/html; charset=UTF-8" %>
-
 <%@ page language="java" import="java.util.*" %>
 <%@ page import = "java.util.ResourceBundle" %>
 <%@ page import="com.feedbackform.model.ErrorBean" %>
@@ -35,12 +30,18 @@
     String pleaseFill  = new String(resource.getString("PleaseFill").getBytes("ISO-8859-1"), "UTF-8");
 %>
 
+<%@taglib uri="http://struts.apache.org/tags-html" prefix="s"%>
+<%@taglib uri="http://struts.apache.org/tags-bean" prefix="b"%>
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html; charset=UTF-8" %>
+
 <html>
 <head>
+    <meta http-equiv="refresh" content="<%=session.getMaxInactiveInterval()%>;url=WelcomePage.do" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width = device-width, initial-scale = 1">
-    <link rel="stylesheet" type="text/css" href="pages/feedbackform/formcss.css">
+    <link rel="stylesheet" type="text/css" href="pages/feedbackform/jscss/formcss.css">
 </head>
 
 <body>
@@ -48,13 +49,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-<header class="ccheader">
+<header class="ccheader orange">
     <h1><%=heading%></h1>
 </header>
 
 <% ErrorBean errorBean = (ErrorBean) session.getAttribute("errorBean"); %>
 <% if (errorBean != null){ %>
-<div style="float:none; color: #ffff00" align="center">
+<div style="float:none; color: red" align="center">
     <%=pleaseFill%>
 </div>
 <br/>
@@ -63,10 +64,10 @@
     <s:errors/>
 </h1>
 
-<div class="wrapper">
+<div class="wrapper orange">
     <s:form method="post" action="/AddFeedBackFormHi.do" styleClass="ccform">
         <br/>
-        <div style="float:left"
+        <div style="float:left;margin-left:5em"
                 <% if (errorBean != null && errorBean.getName() != null){ %>
              class="errorBold"
                 <%}%>
@@ -78,7 +79,7 @@
             <s:text property="name" styleClass="ccformfield" size="50" maxlength="40"/>
         </div>
         <br/>
-        <div style="float:left;"
+        <div style="float:left;margin-left:5em"
                 <% if (errorBean != null && errorBean.getEmail() != null){ %>
              class="errorBold"
                 <%}%>
@@ -90,7 +91,7 @@
             <s:text property="email" styleClass="ccformfield" size="50" maxlength="40"/>
         </div>
         <br/>
-        <div style="float:left"
+        <div style="float:left;margin-left:5em"
                 <% if (errorBean != null && errorBean.getError1() != null){ %>
              class="errorBold"
                 <%}%>
@@ -110,7 +111,7 @@
             </label>
             <s:text property="answer1" styleClass="ccformfield" size="250" maxlength="250"></s:text>
         </div>
-        <div style="float:left"
+        <div style="float:left;margin-left:5em"
                 <% if (errorBean != null && errorBean.getError2() != null){ %>
              class="errorBold"
                 <%}%>
@@ -130,7 +131,7 @@
             </label>
             <s:text property="answer2" styleClass="ccformfield" size="250" maxlength="250"></s:text>
         </div>
-        <div style="float:left"
+        <div style="float:left;margin-left:5em"
                 <% if (errorBean != null && errorBean.getError3() != null){ %>
              class="errorBold"
                 <%}%>>
@@ -149,7 +150,7 @@
             </label>
             <s:text property="answer3" styleClass="ccformfield" size="250" maxlength="250"></s:text>
         </div>
-        <div style="float:left"
+        <div style="float:left;margin-left:5em"
                 <% if (errorBean != null && errorBean.getError4() != null){ %>
              class="errorBold"
                 <%}%>
@@ -169,7 +170,7 @@
             </label>
             <s:text property="answer4" styleClass="ccformfield" size="250" maxlength="250"></s:text>
         </div>
-        <div style="float:left"
+        <div style="float:left;margin-left:5em"
                 <% if (errorBean != null && errorBean.getError5() != null){ %>
              class="errorBold"
                 <%}%>
@@ -189,7 +190,7 @@
             </label>
             <s:text property="answer5" styleClass="ccformfield" size="250" maxlength="250"></s:text>
         </div>
-        <div style="float:left"
+        <div style="float:left;margin-left:5em"
                 <% if (errorBean != null && errorBean.getError6() != null){ %>
              class="errorBold"
                 <%}%>
@@ -209,7 +210,7 @@
             </label>
             <s:text property="answer6" styleClass="ccformfield" size="250" maxlength="250"></s:text>
         </div>
-        <div style="float:left"
+        <div style="float:left;margin-left:5em"
                 <% if (errorBean != null && errorBean.getError7() != null){ %>
              class="errorBold"
                 <%}%>
@@ -229,7 +230,7 @@
             </label>
             <s:text property="answer7" styleClass="ccformfield" size="250" maxlength="250"></s:text>
         </div>
-        <div style="float:left"
+        <div style="float:left;margin-left:5em"
                 <% if (errorBean != null && errorBean.getError8() != null){ %>
              class="errorBold"
                 <%}%>
@@ -240,7 +241,7 @@
             <span class="ccform-addon"><i class="fa fa-comment fa-2x"></i></span>
             <s:text property="answer8" styleClass="ccformfield" size="250" maxlength="250"></s:text>
         </div>
-        <div style="float:left"
+        <div style="float:left;margin-left:5em"
                 <% if (errorBean != null && errorBean.getError9() != null){ %>
              class="errorBold"
                 <%}%>
@@ -261,7 +262,7 @@
             <s:text property="answer9" styleClass="ccformfield"></s:text>
         </div>
         <br/>
-        <div style="float:left"
+        <div style="float:left;margin-left:5em"
                 <% if (errorBean != null && errorBean.getError10() != null){ %>
              class="errorBold"
                 <%}%>
@@ -273,19 +274,20 @@
             <s:text property="answer10" styleClass="ccformfield"></s:text>
         </div>
         <div class="ccfield-prepend" style="float:left">
-            <s:submit styleClass="ccbtn" value="Submit"/>
+            <s:submit styleClass="btn btn-primary btn-lg search" value="Submit"/>
         </div>
+        <br>
+        <br>
         <div class="ccfield-prepend" style="float:left">
-            <s:reset styleClass="ccbtn" value="Reset"/>
+            <s:reset styleClass="btn btn-primary btn-lg search" value="Reset"/>
         </div>
     </s:form>
 </div>
 <div class="credit">
-    <p><%=downMessage%>
-        <br/>
-        <a href="https://www.facebook.com/ExploringOneself/" target="_blank">ExploringOneself</a>
-    </p>
+    <p class="orange"><%=downMessage%></p>
 </div>
+
+<jsp:include page="footer.jsp"/>
 
 </body>
 </html>

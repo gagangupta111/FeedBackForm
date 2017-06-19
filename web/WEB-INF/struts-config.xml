@@ -16,6 +16,10 @@
                 path="/WelcomePage"
                 type="org.apache.struts.actions.ForwardAction"
                 parameter="/pages/feedbackform/welcome.jsp"/>
+        <action
+                path="/Footer"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="/pages/feedbackform/footer.jsp"/>
 
         <action
                 path="/WelcomeEn"
@@ -80,5 +84,7 @@
         <set-property property="contextConfigLocation"
                       value="/WEB-INF/classes/SpringBeans.xml" />
     </plug-in>
+
+
 
 </struts-config>

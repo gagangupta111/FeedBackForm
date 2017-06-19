@@ -15,7 +15,6 @@ body {
     padding: 2em;
     text-align: center;
 }
-
 .ccheader h1 {
     margin: 0;
     font-weight: 300;
@@ -104,5 +103,43 @@ body {
 div.errorBold {
     font-weight: 900;
     font-size: 150%;
-    color:#FFFF00
+    color:red;
+}
+div.orange{
+    color:#f29107
+}
+p.orange{
+    color:#f29107
+}
+header.orange{
+    color:#f29107
+}
+h1.orange{
+    color:#f29107
+}
+h2.orange{
+    color:#f29107
+}
+h3.orange{
+    color:#f29107
+}
+link.orange{
+    color:#f29107
+}
+div.search {
+    width: 20em;  height: 2em;
+}
+button.search {
+    width: 20em;  height: 2em;
+}
+submit.search {
+    width: 20em;  height: 2em;
+}
+reset.search {
+    width: 20em;  height: 2em;
+}
+#over img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }

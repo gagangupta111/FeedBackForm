@@ -57,9 +57,22 @@
           <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformEn.jsp" />
           <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/thanksForYourFeedBack.jsp" />
           <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/welcome.jsp" />
-          <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/formcss.css" />
           <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/add_feedbackformHi.jsp" />
+          <element id="directory" name="jscss">
+            <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/jscss/cover.css" />
+            <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/jscss/formcss.css" />
+          </element>
+          <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/footer.jsp" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/header.jsp" />
         </element>
+      </element>
+      <element id="directory" name="images">
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/cleanGreen.jpg" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/kids.jpg" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/buddha.jpg" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/creative_city.jpg" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/DIFF-HAPPY-JOBS-940.jpg" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/YogaCreativityFeature.png" />
       </element>
     </root>
   </artifact>
