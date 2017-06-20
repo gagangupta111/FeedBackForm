@@ -23,6 +23,8 @@
 
 <body>
 
+<jsp:include page="header.jsp"/>
+
 <header class="ccheader orange" >
     <h1><%=English%></h1>
     <h1><%=Hindi%></h1>
@@ -43,7 +45,7 @@
 
 <img style="float: left;margin-left:10%" src="images/cleanGreen.jpg" height="200" width="300">
 <img style="margin-left: 5%; margin-right: 5%" src="images/kids.jpg" height="200" width="300">
-<img style="float: right;margin-right: 10%" src="images/creative_city.jpg" height="200" width="300">
+<img style="float: right;margin-right: 10%" src="images/wecando.png" height="200" width="300">
 
 <br>
 <br>

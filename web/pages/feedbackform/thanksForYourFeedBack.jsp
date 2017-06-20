@@ -20,6 +20,8 @@
 
 <body>
 
+<jsp:include page="header.jsp"/>
+
 <header class="ccheader orange">
     <h1><%=engThanks%> <%=session.getAttribute("name")%> </h1>
     <h1><%=hinThanks%> <%=session.getAttribute("name")%> </h1>

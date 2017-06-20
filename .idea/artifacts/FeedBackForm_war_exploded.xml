@@ -61,6 +61,7 @@
           <element id="directory" name="jscss">
             <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/jscss/cover.css" />
             <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/jscss/formcss.css" />
+            <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/jscss/script.js" />
           </element>
           <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/footer.jsp" />
           <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/header.jsp" />
@@ -73,6 +74,7 @@
         <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/creative_city.jpg" />
         <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/DIFF-HAPPY-JOBS-940.jpg" />
         <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/YogaCreativityFeature.png" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/wecando.png" />
       </element>
     </root>
   </artifact>

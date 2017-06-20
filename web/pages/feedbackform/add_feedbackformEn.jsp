@@ -45,9 +45,12 @@
 </head>
 
 <body>
+<script src="pages/feedbackform/jscss/script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<jsp:include page="header.jsp"/>
 
 <header class="ccheader orange">
     <h1><%=heading%></h1>
@@ -79,7 +82,7 @@
             <s:text property="name" styleClass="ccformfield" size="50" maxlength="40"/>
         </div>
         <br/>
-        <div style="float:left;margin-left:5em"
+        <div id="email" style="float:left;margin-left:5em"
                 <% if (errorBean != null && errorBean.getEmail() != null){ %>
              class="errorBold"
                 <%}%>
@@ -88,7 +91,7 @@
         <br/>
         <div class="ccfield-prepend" style="float:left">
             <span class="ccform-addon"><i class="fa fa-envelope fa-2x"></i></span>
-            <s:text property="email" styleClass="ccformfield" size="50" maxlength="40"/>
+            <s:text property="email" styleClass="ccformfield" size="50" maxlength="40" onblur="var e = this;validateEmaildisplay('email', e.value, 'English')"/>
         </div>
         <br/>
         <div style="float:left;margin-left:5em"
