@@ -1,7 +1,6 @@
-
 <ul>
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li style="float:right"><a href="#about">About</a></li>
+    <li><button class="btn bg-info"  onclick="location.href='WelcomePage.do';"> Home </button></li>
+    <li><button class="btn bg-info" onclick="location.href='Example.do';"> Example </button></li>
+    <li><button class="btn bg-info" onclick="location.href='WelcomePage.do';"> Contact </button></li>
+    <li style="float:right"><button class="btn bg-info" onclick="location.href='WelcomePage.do';"> About </button></li>
 </ul>

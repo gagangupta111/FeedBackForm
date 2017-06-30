@@ -1,5 +1,7 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+      crossorigin="anonymous">
 <%@ page language="java" import="java.util.*" %>
 <%@ page import = "java.util.ResourceBundle" %>
 <% ResourceBundle resource = ResourceBundle.getBundle("common");
@@ -7,6 +9,7 @@
     String ExOneHi    = new String(resource.getString("ExOneHi").getBytes("ISO-8859-1"), "UTF-8");
 %>
 <div class="container">
+
     <hr>
     <div class="text-center center-block">
         <p class="txt-railway orange">- <%=ExOneHi%> -</p>
@@ -17,3 +20,13 @@
     </div>
     <hr>
 </div>
+
+<br><br><br>
+
+<div class="wrap1">
+
+    <%-- Place something here which you want to be present in bottom of the page. --%>
+
+    <div class="push1"></div>
+</div>
+<div class="footer1"></div>

@@ -32,7 +32,13 @@
 <br>
 <br>
 
+<img class="ImgBorderOrange" style="float: left;margin-left:10%" src="images/meditation.gif" height="300" width="300">
+<img class="ImgBorderOrange" style="margin-left: 9%; margin-right: 7%" src="images/buddha.jpg" height="300" width="300">
+<img class="ImgBorderOrange" style="float: right;margin-right: 10%" src="images/male.gif" height="300" width="300">
+
+<%--
 <img style="margin-left: 30%; margin-right: 30%" src="images/buddha.jpg" height="400" width="600">
+--%>
 
 <br>
 <br>

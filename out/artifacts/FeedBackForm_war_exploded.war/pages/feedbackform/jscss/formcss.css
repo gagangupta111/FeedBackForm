@@ -1,8 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 body {
-    background: #f29107;
-    color: #fff;
     font-weight: 400;
     font-size: 1em;
     font-family: 'Lato', Arial, sans-serif;
@@ -99,8 +97,12 @@ body {
     font-weight: bold;
     text-decoration: none;
 }
-
 div.errorBold {
+    font-weight: 900;
+    font-size: 150%;
+    color:red;
+}
+header.errorBold {
     font-weight: 900;
     font-size: 150%;
     color:red;
@@ -143,33 +145,103 @@ reset.search {
     margin-right: auto;
     display: block;
 }
+.ImgBorderOrange
+{
+    border: 5px solid #f29107;
+}
+.active {
+    background-color: #4CAF50;
+}
+div.wraptocenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    background-color: #999;
+}
+div.wraptocenter * {
+    vertical-align: middle;
+}
+div.imageCenter{
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+span.imageCenter {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+div.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+ul.footerAtBottom {
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+div.wrap1 {
+    min-height: 0px;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+div.footer1, .push1 {
+    height: 0px; /* .push must be the same height as .footer */
+}
+
+
+
+
+
+
+
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
-}
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+ }
 
 li {
     float: left;
 }
-
-li a {
-    display: block;
-    color: #666;
+li a, .dropbtn {
+    display: inline-block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #ddd;
+li a:hover, .dropdown:hover .dropbtn {
 }
 
-li a.active {
-    color: white;
-    background-color: #4CAF50;
+li.dropdown {
+    display: inline-block;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+

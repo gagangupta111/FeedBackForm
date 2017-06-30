@@ -65,16 +65,24 @@
           </element>
           <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/footer.jsp" />
           <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/header.jsp" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/example.jsp" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/general-error.jsp" />
         </element>
       </element>
       <element id="directory" name="images">
-        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/cleanGreen.jpg" />
-        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/kids.jpg" />
         <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/buddha.jpg" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/buddhaAwake.gif" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/clean.gif" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/cleanGreen.jpg" />
         <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/creative_city.jpg" />
         <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/DIFF-HAPPY-JOBS-940.jpg" />
-        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/YogaCreativityFeature.png" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/kids.jpg" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/male.gif" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/meditation.gif" />
         <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/wecando.png" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/world.gif" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/YogaCreativityFeature.png" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/errorMinion.gif" />
       </element>
     </root>
   </artifact>

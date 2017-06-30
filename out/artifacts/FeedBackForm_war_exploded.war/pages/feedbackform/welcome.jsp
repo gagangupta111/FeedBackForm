@@ -15,6 +15,11 @@
 
 <html>
 <head>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+          crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width = device-width, initial-scale = 1">
@@ -43,9 +48,9 @@
 
 <br><br><br>
 
-<img style="float: left;margin-left:10%" src="images/cleanGreen.jpg" height="200" width="300">
-<img style="margin-left: 5%; margin-right: 5%" src="images/kids.jpg" height="200" width="300">
-<img style="float: right;margin-right: 10%" src="images/wecando.png" height="200" width="300">
+<img class="ImgBorderOrange" style="float: left;margin-left:10%" src="images/clean.gif" height="300" width="300">
+<img class="ImgBorderOrange" style="margin-left: 9%; margin-right: 7%" src="images/kids.jpg" height="200" width="300">
+<img class="ImgBorderOrange" style="float: right;margin-right: 10%" src="images/world.gif" height="300" width="300">
 
 <br>
 <br>

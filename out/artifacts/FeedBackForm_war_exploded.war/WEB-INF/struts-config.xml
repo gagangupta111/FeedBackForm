@@ -13,6 +13,10 @@
     <action-mappings>
 
         <action
+                path="/Example"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="/pages/feedbackform/example.jsp"/>
+        <action
                 path="/WelcomePage"
                 type="org.apache.struts.actions.ForwardAction"
                 parameter="/pages/feedbackform/welcome.jsp"/>

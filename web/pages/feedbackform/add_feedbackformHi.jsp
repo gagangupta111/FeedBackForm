@@ -53,7 +53,8 @@
 <jsp:include page="header.jsp"/>
 
 <header class="ccheader orange">
-    <h1><%=heading%></h1>
+    <h1><%=heading%></h1><br>
+    <button class="btn btn-primary btn-lg search" onclick="location.href='WelcomeEn.do';"> English </button>
 </header>
 
 <% ErrorBean errorBean = (ErrorBean) session.getAttribute("errorBean"); %>
@@ -61,7 +62,6 @@
 <div style="float:none; color: red" align="center">
     <%=pleaseFill%>
 </div>
-<br/>
 <%}%>
 <h1 style="color: black">
     <s:errors/>
@@ -69,10 +69,9 @@
 
 <div class="wrapper orange">
     <s:form method="post" action="/AddFeedBackFormHi.do" styleClass="ccform">
-        <br/>
         <div style="float:left;margin-left:5em"
                 <% if (errorBean != null && errorBean.getName() != null){ %>
-             class="errorBold"
+                class="errorBold"
                 <%}%>
         >
             <%=name%></div>
