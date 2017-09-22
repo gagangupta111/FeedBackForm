@@ -68,6 +68,8 @@
           <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/header.jsp" />
           <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/thanksForYourFeedBack.jsp" />
           <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/welcome.jsp" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/about.jsp" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/contact.jsp" />
         </element>
       </element>
       <element id="file-copy" path="$PROJECT_DIR$/web/index.jsp" />

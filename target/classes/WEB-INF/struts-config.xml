@@ -11,11 +11,15 @@
     </form-beans>
 
     <action-mappings>
-
+        
         <action
-                path="/Example"
+                path="/Contact"
                 type="org.apache.struts.actions.ForwardAction"
-                parameter="/pages/feedbackform/example.jsp"/>
+                parameter="/pages/feedbackform/contact.jsp"/>
+        <action
+                path="/About"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="/pages/feedbackform/about.jsp"/>
         <action
                 path="/WelcomePage"
                 type="org.apache.struts.actions.ForwardAction"

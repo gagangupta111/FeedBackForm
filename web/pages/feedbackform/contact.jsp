@@ -5,8 +5,8 @@
 <%@ page language="java" import="java.util.*" %>
 <%@ page import = "java.util.ResourceBundle" %>
 <% ResourceBundle resource = ResourceBundle.getBundle("common");
-    String English  = new String(resource.getString("English").getBytes("ISO-8859-1"), "UTF-8");
-    String Hindi    = new String(resource.getString("Hindi").getBytes("ISO-8859-1"), "UTF-8");
+    String ContactEn  = new String(resource.getString("ContactEn").getBytes("ISO-8859-1"), "UTF-8");
+    String ContactHi    = new String(resource.getString("ContactHi").getBytes("ISO-8859-1"), "UTF-8");
 %>
 <%@taglib uri="http://struts.apache.org/tags-html" prefix="s"%>
 <%@taglib uri="http://struts.apache.org/tags-bean" prefix="b"%>
@@ -31,26 +31,12 @@
 <jsp:include page="header.jsp"/>
 
 <header class="ccheader orange" >
-    <h1><%=English%></h1>
-    <h1><%=Hindi%></h1>
+    <h1><%=ContactEn%></h1>
+    <br><br><br>
+    <h1><%=ContactHi%></h1>
 </header>
 
 <br><br><br>
-
-<header class="ccheader">
-
-        <button class="btn btn-primary btn-lg search" onclick="location.href='WelcomeEn.do';"> English </button>
-    <br>
-    <br>
-        <button class="btn btn-primary btn-lg search" onclick="location.href='WelcomeHi.do';"> हिंदी </button>
-
-</header>
-
-<br><br><br>
-
-<img class="ImgBorderOrange" style="float: left;margin-left:10%" src="images/clean.gif" height="300" width="300">
-<img class="ImgBorderOrange" style="margin-left: 9%; margin-right: 7%" src="images/kids.jpg" height="200" width="300">
-<img class="ImgBorderOrange" style="float: right;margin-right: 10%" src="images/world.gif" height="300" width="300">
 
 <br>
 <br>

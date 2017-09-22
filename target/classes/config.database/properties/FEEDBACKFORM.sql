@@ -1,3 +1,4 @@
+
 DROP SCHEMA IF EXISTS `Hibernate1`;
 CREATE SCHEMA `Hibernate1`;
 
