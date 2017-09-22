@@ -6,173 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78353026-5f16-4257-80bd-ae67967c3918" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/asm-attrs-1.5.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/jta-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/struts-core-1.3.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/images/DIFF-HAPPY-JOBS-940.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/images/YogaCreativityFeature.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/images/buddha.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/images/buddhaAwake.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/images/clean.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/images/cleanGreen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/images/creative_city.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/images/errorMinion.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/images/kids.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/images/male.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/images/meditation.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/images/wecando.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/images/world.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pages/feedbackform/images/screenshots/Screen Shot 2017-09-22 at 11.56.25 AM.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pages/feedbackform/images/screenshots/Screen Shot 2017-09-22 at 11.57.08 AM.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/config.database/properties/FEEDBACKFORM.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/struts-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/pages/feedbackform/add_feedbackformEn.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/pages/feedbackform/add_feedbackformHi.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/pages/feedbackform/example.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/pages/feedbackform/footer.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/pages/feedbackform/general-error.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/pages/feedbackform/header.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/pages/feedbackform/jscss/cover.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/pages/feedbackform/jscss/formcss.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/pages/feedbackform/jscss/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/pages/feedbackform/thanksForYourFeedBack.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/pages/feedbackform/welcome.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config.database/properties/FEEDBACKFORM.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/struts-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/config.database/properties/FEEDBACKFORM.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/add_feedbackformEn.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/add_feedbackformHi.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/example.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/footer.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/general-error.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/header.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/jscss/cover.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/jscss/formcss.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/jscss/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/thanksForYourFeedBack.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/feedbackform/welcome.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/webContexts.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/asm-attrs-1.5.3.jar" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/artifacts/FeedBackForm_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/JbossArtifact.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_0_1B.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/English.properties" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/English.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/HIndi.properties" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/HIndi.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/SpringBeans.xml" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/SpringBeans.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com.feedbackform/hibernate/FeedBackForm.hbm.xml" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com.feedbackform/hibernate/FeedBackForm.hbm.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com.feedbackform/properties/English.properties" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com.feedbackform/properties/English.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com.feedbackform/properties/HIndi.properties" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com.feedbackform/properties/HIndi.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com.feedbackform/properties/common.properties" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com.feedbackform/properties/common.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com.feedbackform/spring/FeedBackFormBean.xml" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com.feedbackform/spring/FeedBackFormBean.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com/feedbackform/action/AddFeedBackFormAction.class" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com/feedbackform/action/AddFeedBackFormAction.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com/feedbackform/action/ThanksForYourFeedBackAction.class" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com/feedbackform/action/ThanksForYourFeedBackAction.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com/feedbackform/action/WelcomeAction.class" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com/feedbackform/action/WelcomeAction.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com/feedbackform/bo/FeedBackFormBo.class" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com/feedbackform/bo/FeedBackFormBo.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com/feedbackform/bo/FeedBackFormBoImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com/feedbackform/bo/FeedBackFormBoImpl.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com/feedbackform/dao/FeedBackFormDao.class" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com/feedbackform/dao/FeedBackFormDao.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com/feedbackform/dao/FeedBackFormDaoImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com/feedbackform/dao/FeedBackFormDaoImpl.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com/feedbackform/encoding/CharacterEncodingFilter.class" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com/feedbackform/encoding/CharacterEncodingFilter.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com/feedbackform/form/FeedBackFormForm.class" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com/feedbackform/form/FeedBackFormForm.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com/feedbackform/interceptor/SessionInterceptor.class" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com/feedbackform/interceptor/SessionInterceptor.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com/feedbackform/model/ErrorBean.class" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com/feedbackform/model/ErrorBean.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/com/feedbackform/model/FeedBackForm.class" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/com/feedbackform/model/FeedBackForm.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/common.properties" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/common.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/config.database/properties/FEEDBACKFORM.ddl" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/config.database/properties/FEEDBACKFORM.ddl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/config.database/properties/database.properties" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/config.database/properties/database.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/config.database/spring/DataSource.xml" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/config.database/spring/DataSource.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/classes/config.database/spring/HibernateSessionFactory.xml" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/config.database/spring/HibernateSessionFactory.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/antlr-2.7.7.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/antlr-2.7.7.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/aopalliance-1.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/asm-3.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/asm-3.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/cglib-2.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/cglib-2.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/commons-beanutils-1.7.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/commons-beanutils-1.7.0.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/commons-chain-1.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/commons-chain-1.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/commons-collections-3.2.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/commons-digester-1.8.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/commons-digester-1.8.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/commons-fileupload-1.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/commons-fileupload-1.0.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/commons-logging-1.1.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/commons-validator-1.3.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/commons-validator-1.3.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/dom4j-1.6.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/ehcache-1.2.3.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/ehcache-1.2.3.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/ejb3-persistence-1.0.2.GA.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/ejb3-persistence-1.0.2.GA.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/hibernate-3.2.7.ga.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/hibernate-3.2.7.ga.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/hibernate-annotations-3.4.0.GA.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/hibernate-annotations-3.4.0.GA.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/hibernate-commons-annotations-3.3.0.ga.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/hibernate-commons-annotations-3.3.0.ga.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/hibernate-core-3.3.0.SP1.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/hibernate-core-3.3.0.SP1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/javaee-api-6.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/javaee-api-6.0.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/javassist-3.12.1.GA.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/javassist-3.12.1.GA.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/junit-3.8.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/junit-3.8.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/mysql-connector-java-5.1.9.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/mysql-connector-java-5.1.9.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/oro-2.0.8.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/oro-2.0.8.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/persistence-api-1.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/persistence-api-1.0.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/slf4j-api-1.4.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/slf4j-api-1.4.2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/spring-2.5.6.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/spring-2.5.6.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/spring-beans-2.5.6.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/spring-beans-2.5.6.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/spring-context-2.5.6.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/spring-context-2.5.6.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/spring-core-2.5.6.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/spring-core-2.5.6.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/spring-struts-2.0.8.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/spring-struts-2.0.8.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/spring-web-2.5.6.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/spring-web-2.5.6.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/struts-1.2.9.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/struts-1.2.9.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/struts-extras-1.3.10.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/struts-extras-1.3.10.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/struts-taglib-1.3.10.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/struts-taglib-1.3.10.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/xalan-2.5.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/xalan-2.5.1.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/lib/xml-apis-1.0.b2.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/struts-config.xml" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/WEB-INF/struts-config.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/images/DIFF-HAPPY-JOBS-940.jpg" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/images/DIFF-HAPPY-JOBS-940.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/images/YogaCreativityFeature.png" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/images/YogaCreativityFeature.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/images/buddha.jpg" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/images/buddha.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/images/buddhaAwake.gif" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/images/buddhaAwake.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/images/clean.gif" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/images/clean.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/images/cleanGreen.jpg" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/images/cleanGreen.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/images/creative_city.jpg" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/images/creative_city.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/images/errorMinion.gif" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/images/errorMinion.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/images/kids.jpg" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/images/kids.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/images/male.gif" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/images/male.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/images/meditation.gif" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/images/meditation.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/images/wecando.png" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/images/wecando.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/images/world.gif" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/images/world.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/add_feedbackformEn.jsp" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/add_feedbackformEn.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/add_feedbackformHi.jsp" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/add_feedbackformHi.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/example.jsp" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/example.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/footer.jsp" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/footer.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/general-error.jsp" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/general-error.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/header.jsp" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/header.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/images/DIFF-HAPPY-JOBS-940.jpg" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/images/DIFF-HAPPY-JOBS-940.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/images/YogaCreativityFeature.png" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/images/YogaCreativityFeature.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/images/buddha.jpg" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/images/buddha.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/images/buddhaAwake.gif" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/images/buddhaAwake.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/images/clean.gif" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/images/clean.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/images/cleanGreen.jpg" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/images/cleanGreen.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/images/creative_city.jpg" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/images/creative_city.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/images/errorMinion.gif" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/images/errorMinion.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/images/kids.jpg" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/images/kids.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/images/male.gif" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/images/male.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/images/meditation.gif" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/images/meditation.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/images/wecando.png" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/images/wecando.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/images/world.gif" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/images/world.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/jscss/cover.css" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/jscss/cover.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/jscss/formcss.css" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/jscss/formcss.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/jscss/script.js" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/jscss/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/thanksForYourFeedBack.jsp" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/thanksForYourFeedBack.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/artifacts/FeedBackForm_war_exploded.war/pages/feedbackform/welcome.jsp" afterPath="$PROJECT_DIR$/out/artifacts/JbossArtifact/WEB-INF/classes/pages/feedbackform/welcome.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FeedBackForm.iml" afterPath="$PROJECT_DIR$/FeedBackForm.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/SpringBeans.xml" afterPath="$PROJECT_DIR$/src/main/resources/SpringBeans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.database/properties/FEEDBACKFORM.ddl" afterPath="$PROJECT_DIR$/src/main/resources/config.database/properties/FEEDBACKFORM.ddl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SpringBeans.xml" afterPath="$PROJECT_DIR$/target/classes/SpringBeans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config.database/properties/FEEDBACKFORM.ddl" afterPath="$PROJECT_DIR$/target/classes/config.database/properties/FEEDBACKFORM.ddl" />
-    </list>
+    <list default="true" id="78353026-5f16-4257-80bd-ae67967c3918" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -528,12 +362,12 @@
       <workItem from="1506052151151" duration="1121000" />
       <workItem from="1506058757516" duration="1692000" />
       <workItem from="1506060571672" duration="1151000" />
-      <workItem from="1506062378106" duration="78000" />
+      <workItem from="1506062378106" duration="229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10642000" />
+    <option name="totallyTimeSpent" value="10793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
