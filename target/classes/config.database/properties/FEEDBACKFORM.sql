@@ -1,9 +1,9 @@
 
-DROP SCHEMA IF EXISTS `Hibernate1`;
-CREATE SCHEMA `Hibernate1`;
+DROP SCHEMA IF EXISTS `openshiftapp1`;
+CREATE SCHEMA `openshiftapp1`;
 
-DROP TABLE IF EXISTS `Hibernate1`.`FEEDBACKFORM`;
-CREATE TABLE  `Hibernate1`.`FEEDBACKFORM` (
+DROP TABLE IF EXISTS `openshiftapp1`.`FEEDBACKFORM`;
+CREATE TABLE  `openshiftapp1`.`FEEDBACKFORM` (
   `FEEDBACK_ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `NAME` varchar(100) NOT NULL,
   `EMAIL` varchar(100) NOT NULL,
@@ -31,5 +31,5 @@ CREATE TABLE  `Hibernate1`.`FEEDBACKFORM` (
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARACTER SET utf8mb4;
 
 
-select * from `Hibernate1`.`FEEDBACKFORM`;
+select * from `openshiftapp1`.`FEEDBACKFORM`;
 
