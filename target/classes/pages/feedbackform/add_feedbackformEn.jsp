@@ -1,7 +1,7 @@
 <%@ page language="java" import="java.util.*" %>
 <%@ page import = "java.util.ResourceBundle" %>
 <%@ page import="com.feedbackform.model.ErrorBean" %>
-<% ResourceBundle resource = ResourceBundle.getBundle("English");
+<% ResourceBundle resource = ResourceBundle.getBundle("common");
     String heading      = new String(resource.getString("Heading").getBytes("ISO-8859-1"), "UTF-8");
     String name         = new String(resource.getString("Name").getBytes("ISO-8859-1"), "UTF-8");
     String email        = new String(resource.getString("Email").getBytes("ISO-8859-1"), "UTF-8");

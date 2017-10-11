@@ -2,8 +2,6 @@ package com.feedbackform.bo;
 import com.feedbackform.dao.FeedBackFormDao;
 import com.feedbackform.model.FeedBackForm;
 
-import java.util.List;
-
 public class FeedBackFormBoImpl implements FeedBackFormBo{
 
     FeedBackFormDao feedBackFormDao;

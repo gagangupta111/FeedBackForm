@@ -12,8 +12,22 @@
 
     <hr>
     <div class="text-center center-block">
+
+        <p class="txt-railway orange">
+            This web application is an example of enterprise application software (EAS).<br />
+            The basic tutorial of how this web application has been created and<br />
+            deployed is explained here for educational purposes.<br />
+        </p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/s-8fwB8Yp1U" frameborder="0" allowfullscreen></iframe>
+
+        <br />
+        <br />
+        <br />
+
         <p class="txt-railway orange">- <%=ExOneHi%> -</p>
         <p class="txt-railway orange">- <%=ExOneEn%> -</p>
+
         <br />
         <a href="https://www.facebook.com/ExploringOneself/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
         <a href="mailto:admin@exploringoneself.org"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
