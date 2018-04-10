@@ -27,6 +27,40 @@
 </head>
 
 <body>
+<audio id="audio" src="images/clippedAudio.mp3" autoplay="autoplay" loop="loop"></audio>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+    var player;
+
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('newvid', {
+            height: '315',
+            width: '560',
+            videoId: 's-8fwB8Yp1U', // Example video ID
+            events: {
+                'onStateChange': function(event) {
+                    if (event.data == YT.PlayerState.PLAYING) {
+                        muteAudio();
+                    }
+                    if (event.data == YT.PlayerState.PAUSED ||
+                        event.data == YT.PlayerState.ENDED ||
+                        event.data == YT.PlayerState.BUFFERING) {
+                        playAudio();
+                    }
+                }
+            }
+        });
+    }
+</script>
+
+<script>
+    function muteAudio() {
+        document.getElementById('audio').pause();
+    }
+    function playAudio() {
+        document.getElementById('audio').play();
+    }
+</script>
 
 <jsp:include page="header.jsp"/>
 

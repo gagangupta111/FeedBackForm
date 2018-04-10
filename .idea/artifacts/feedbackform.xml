@@ -87,6 +87,7 @@
         <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/wecando.png" />
         <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/world.gif" />
         <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/YogaCreativityFeature.png" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/pages/feedbackform/images/clippedAudio.mp3" />
       </element>
     </root>
   </artifact>

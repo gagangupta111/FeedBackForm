@@ -1,4 +1,3 @@
-
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
@@ -7,9 +6,9 @@
     <bean id="dataSource"
           class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://52.33.94.204:3306/openshiftapp1?characterEncoding=UTF-8" />
-        <property name="username" value="outside" />
-        <property name="password" value="password" />
+        <property name="url" value="jdbc:mysql://jbossmysql-instance1.cw0dbn4dlkhb.us-east-2.rds.amazonaws.com:3306/openshiftapp1?characterEncoding=UTF-8" />
+        <property name="username" value="masteruser" />
+        <property name="password" value="masterpassword" />
     </bean>
 
 </beans>

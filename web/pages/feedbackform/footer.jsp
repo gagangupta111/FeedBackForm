@@ -19,7 +19,7 @@
             deployed is explained here for educational purposes.<br />
         </p>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/s-8fwB8Yp1U" frameborder="0" allowfullscreen></iframe>
+        <div id="newvid"></div>
 
         <br />
         <br />
